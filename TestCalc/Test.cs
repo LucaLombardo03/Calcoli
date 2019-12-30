@@ -7,7 +7,7 @@ namespace CalcLibrary.Tests
     public class Test
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod1() 
         {
         }
     }
