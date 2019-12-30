@@ -1,0 +1,17 @@
+﻿<Window x:Class="InterfacciaGrafica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacciaGrafica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="261.233" Width="579.92">
+    <Grid>
+        <Label Content="RADICE QUADRATA" HorizontalAlignment="Left" Height="32" Margin="209,34,0,0" VerticalAlignment="Top" Width="217" FontWeight="Bold" FontFamily="Rockwell Extra Bold" FontSize="18" RenderTransformOrigin="0.43,-0.046" Grid.ColumnSpan="2"/>
+        <TextBox Name="TxtNum" HorizontalAlignment="Left" Height="34" Margin="78,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" TextAlignment="Center" FontSize="18"/>
+        <Label Content="INSERISCI UN NUMERO" HorizontalAlignment="Left" Height="33" Margin="78,92,0,0" VerticalAlignment="Top" Width="139"/>
+        <Button Content="CALCOLA" HorizontalAlignment="Left" Height="34" Margin="235,130,0,0" VerticalAlignment="Top" Width="139"  Click="Calcola_Click"/>
+        <Label Name="LblRisultato" Content="       " HorizontalAlignment="Left" Height="33" Margin="437,128,0,0" VerticalAlignment="Top" Width="64" FontSize="18"/>
+
+    </Grid>
+</Window>
